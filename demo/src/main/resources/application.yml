@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: a
+  datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://rm-m5ey8ao45e3r6v48qqo.mysql.rds.aliyuncs.com:3306/bin_test?characterEncoding=utf8
+      username: yijinkeji
+      password: ASja@603494853
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
